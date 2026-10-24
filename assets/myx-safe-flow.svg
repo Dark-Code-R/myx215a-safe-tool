@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">MYX Safe Tool workflow</title>
+  <desc id="desc">Verify, backup, remove MDM reversibly, verify again</desc>
+  <rect width="1200" height="260" rx="24" fill="#101827"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g transform="translate(55 60)">
+      <rect width="190" height="120" rx="18" fill="#173b5d" stroke="#27d3c2" stroke-width="3"/>
+      <text x="95" y="48" fill="#27d3c2" font-size="20" font-weight="700">1</text>
+      <text x="95" y="80" fill="#fff" font-size="20">Verificar</text>
+      <text x="95" y="106" fill="#cbd5e1" font-size="14">ADB root</text>
+    </g>
+    <path d="M265 120h55" stroke="#27d3c2" stroke-width="5"/><path d="m310 105 20 15-20 15" fill="none" stroke="#27d3c2" stroke-width="5"/>
+    <g transform="translate(345 60)">
+      <rect width="190" height="120" rx="18" fill="#173b5d" stroke="#27d3c2" stroke-width="3"/>
+      <text x="95" y="48" fill="#27d3c2" font-size="20" font-weight="700">2</text>
+      <text x="95" y="80" fill="#fff" font-size="20">Respaldar</text>
+      <text x="95" y="106" fill="#cbd5e1" font-size="14">MDM / firmware</text>
+    </g>
+    <path d="M555 120h55" stroke="#27d3c2" stroke-width="5"/><path d="m600 105 20 15-20 15" fill="none" stroke="#27d3c2" stroke-width="5"/>
+    <g transform="translate(635 60)">
+      <rect width="190" height="120" rx="18" fill="#173b5d" stroke="#f2c14e" stroke-width="3"/>
+      <text x="95" y="48" fill="#f2c14e" font-size="20" font-weight="700">3</text>
+      <text x="95" y="80" fill="#fff" font-size="20">Desactivar MDM</text>
+      <text x="95" y="106" fill="#cbd5e1" font-size="14">reversible</text>
+    </g>
+    <path d="M845 120h55" stroke="#27d3c2" stroke-width="5"/><path d="m890 105 20 15-20 15" fill="none" stroke="#27d3c2" stroke-width="5"/>
+    <g transform="translate(925 60)">
+      <rect width="190" height="120" rx="18" fill="#173b5d" stroke="#27d3c2" stroke-width="3"/>
+      <text x="95" y="48" fill="#27d3c2" font-size="20" font-weight="700">4</text>
+      <text x="95" y="80" fill="#fff" font-size="20">Verificar</text>
+      <text x="95" y="106" fill="#cbd5e1" font-size="14">launcher normal</text>
+    </g>
+  </g>
+</svg>

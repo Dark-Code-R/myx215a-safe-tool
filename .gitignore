@@ -1,0 +1,23 @@
+# Backups and device-specific data
+backups/
+backup_myx215a/
+backup_myx215a_*/
+*.img
+*.bin
+*.log
+
+# Android packages and temporary build data
+*.apk
+work/
+analysis/
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
